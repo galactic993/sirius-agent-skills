@@ -1,21 +1,36 @@
 # Sirius projects
 
-Save this document as `~/.sirius.md`. List every project that Sirius may process.
+Minimal starter document. Copy to your home directory:
 
-Sirius stores new actions as Addness planned Todos. Each project defines an exact `siriusProject` key and title prefix. Do not put credentials or workflow tuning in this document.
+```bash
+cp examples/sirius.example.md ~/.sirius.md
+```
+
+For a fuller multi-project template with Addness keys, shared-source rules, and authoring checklist, use:
+
+```bash
+cp examples/sirius.template.md ~/.sirius.md
+```
+
+See [docs/SETUP.md](../docs/SETUP.md) for the full installation guide.
 
 ## Example project
 
-Describe the project and any context that helps Claude Code route and execute work.
+Describe the project and any context that helps route and execute work.
 
 ### GitHub repositories
 
-- `owner/repository`
+- `your-org/example-api`
 
-### Channels
+### Slack
 
-Slack and LINE are not used for this project yet.
+- Not used for this project yet
+
+### LINE
+
+- Not used for this project yet
 
 ### Notes
 
-- Follow the repository's own instructions and required checks.
+- Follow the repository's own instructions and required checks
+- Only a human may add `[implement]` or GitHub `merge`
