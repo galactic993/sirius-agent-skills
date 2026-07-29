@@ -1,0 +1,4 @@
+interface:
+  display_name: "Merge Approved Pull Requests"
+  short_description: "Merge approved PRs and complete linked Sirius tasks"
+  default_prompt: "Use $merge-approved-pull-requests to finalize eligible human-approved pull requests and complete linked Sirius Addness planned Todos."

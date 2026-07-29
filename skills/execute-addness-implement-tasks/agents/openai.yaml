@@ -1,0 +1,13 @@
+interface:
+  display_name: "Execute Addness Implement Tasks"
+  short_description: "Run approved Sirius work from Addness"
+  default_prompt: "Use $execute-addness-implement-tasks to execute approved Sirius tasks from Addness."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "addness"
+      description: "Addness MCP server"
+      transport: "streamable_http"
+      url: "https://vt.api.addness.com/mcp"
+policy:
+  allow_implicit_invocation: true

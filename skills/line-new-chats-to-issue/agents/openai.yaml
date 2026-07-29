@@ -1,0 +1,4 @@
+interface:
+  display_name: "LINE New Chats to Addness"
+  short_description: "Refresh LINE status and collect actions into Addness"
+  default_prompt: "Use $line-new-chats-to-issue to refresh configured native LINE status or inspect new chats and create deduplicated Addness planned Todos when warranted."

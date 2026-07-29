@@ -1,0 +1,13 @@
+interface:
+  display_name: "Run Sirius"
+  short_description: "Run the Addness-centered Sirius delivery loop"
+  default_prompt: "Use $run-sirius with ~/.sirius.md and the Addness planned Todo queue to run the delivery loop now."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "addness"
+      description: "Addness MCP server"
+      transport: "streamable_http"
+      url: "https://vt.api.addness.com/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: "Create Addness Task from Action"
+  short_description: "Create deduplicated Sirius tasks in Addness"
+  default_prompt: "Use $create-addness-task-from-action to validate and create one Sirius task in Addness."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "addness"
+      description: "Addness MCP server"
+      transport: "streamable_http"
+      url: "https://vt.api.addness.com/mcp"
+policy:
+  allow_implicit_invocation: true

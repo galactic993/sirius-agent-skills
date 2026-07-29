@@ -1,0 +1,45 @@
+# Local Sirius runtime — never commit real project scope
+.sirius/
+**/.sirius.md
+sirius.md
+!examples/sirius.example.md
+!skills/run-sirius/assets/sirius.example.md
+
+# Migration ledgers and run history
+*-migrations/
+**/runs/
+**/state/
+lease*
+*.ledger.md
+
+# Secrets and credentials
+.env
+.env.*
+auth.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.secret
+*.token
+
+# Local archives and scratch
+*.zip
+*.tar.gz
+tmp/
+scratch/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and local sqlite
+*.log
+*.sqlite
+*.sqlite-*

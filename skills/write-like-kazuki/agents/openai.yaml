@@ -1,0 +1,4 @@
+interface:
+  display_name: "かずきさんらしいメッセージ"
+  short_description: "媒体と相手に合わせて短く自然な外部メッセージを作成"
+  default_prompt: "Use $write-like-kazuki to draft a concise, natural external message for the intended recipient and channel."
